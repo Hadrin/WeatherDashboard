@@ -1,0 +1,26 @@
+header {
+    background-color: lightgreen;
+    width: 100%;
+    border-radius: 5px;
+}
+
+header h1{
+    margin-left: 5px;
+}
+
+header h3 {
+    margin-left: 5px;
+}
+
+body {
+    background-color: rgb(0, 163, 0);
+}
+
+#searchbar {
+    width: 30%;
+}
+
+#history {
+    display: flex;
+    flex-wrap: wrap;
+}
