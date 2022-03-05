@@ -41,10 +41,21 @@ body {
     background-color: lightgreen;
 }
 
+#forecast-display {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
 .forecastCard {
     width: 15%;
     border: solid black 1px;
     border-radius: 5px;
     margin-top: 10px;
     background-color: lightgreen;
+}
+
+.forecastCard h2 {
+    text-align: center;
 }
