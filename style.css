@@ -23,4 +23,28 @@ body {
 #history {
     display: flex;
     flex-wrap: wrap;
+    border: solid black 1px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+#container {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.weatherCard {
+    border: solid black 1px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 10px;
+    background-color: lightgreen;
+}
+
+.forecastCard {
+    width: 15%;
+    border: solid black 1px;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: lightgreen;
 }
